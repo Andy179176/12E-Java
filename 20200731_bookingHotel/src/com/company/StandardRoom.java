@@ -1,6 +1,6 @@
 package com.company;
 
-public class StandardRoom extends Room{
+public class  StandardRoom extends Room{
     private final double priceCoefficient=1.0;
 
 

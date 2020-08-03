@@ -3,6 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        Date date= new Date(10,3,2020);
+        System.out.println(date.dayNumberInTheYear(date));
+
 	  Booking b1=new Booking(
 	          new StandardRoom("1",2),
               new Person("Jack"),
@@ -21,4 +24,5 @@ public class Main {
         System.out.println(b1);
         System.out.println(b2);
     }
+
 }
