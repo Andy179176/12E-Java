@@ -48,13 +48,31 @@ public class Main {
         //bookingList.print();
 
 
-        System.out.println("----------sort by room's number---------");// сортировка через Comparator
+        //System.out.println("----------sort by room's number---------");// сортировка через Comparator
         sort(bookings, new BookingComparatorByRoom());
-        System.out.println("sort by room's number\n" + Arrays.toString(bookings));
+        //System.out.println("sort by room's number\n" + Arrays.toString(bookings));
 
-        System.out.println("----------sort by startDate---------");// сортировка через Comparator
+        //System.out.println("----------sort by startDate---------");// сортировка через Comparator
         sort(bookings, new BookingComparatorByStartDate());
-        System.out.println("sort by startDate\n" + Arrays.toString(bookings));
+        //System.out.println("sort by startDate\n" + Arrays.toString(bookings));
+
+        // для тестирования метода по сортировке дат
+        Date[] dates = new Date[]{
+                new Date(11, 8, 2018), new Date(31, 6, 2005),
+                new Date(11, 7, 2020), new Date(11, 8, 2020),
+                new Date(17, 8, 2020), new Date(12, 8, 2020),
+        };
+        Arrays.sort(dates);
+        System.out.println("sort dates in array " + Arrays.toString(dates)+"\n");
+
+        // тестирование метода, проверяющего корректность интервала checkingDateInterval
+        System.out.println("-----------checking DateInterval----------");
+        DateInterval dateInterval1 = new DateInterval(new Date(11, 8, 2020),
+                new Date(13, 8, 2020));
+        DateInterval dateInterval2 = new DateInterval(new Date(11, 9, 2020),
+                new Date(13, 8, 2020));
+        System.out.println("test 1: should be false: " + dateInterval1.checkingDateInterval(dateInterval1));
+        System.out.println("test 1: should be true: " + dateInterval1.checkingDateInterval(dateInterval2));
 
 
     }
