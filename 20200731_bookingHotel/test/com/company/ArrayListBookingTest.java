@@ -4,9 +4,14 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 
-public class ArrayBookingListTest {
+/**
+ * 12E-Java
+ * 26.08.20 13: 45
+ */
+public class ArrayListBookingTest {
     BookingList bookingList;
     Booking b1;
     Booking b2;
@@ -31,12 +36,13 @@ public class ArrayBookingListTest {
 
 
         b3=new Booking(
-              new SuiteRoom("3",2),
-              new Person("Nick2"),
-              new DateInterval(new MyDate(16,8,2020),
+                new SuiteRoom("3",2),
+                new Person("Nick2"),
+                new DateInterval(new MyDate(16,8,2020),
                         new MyDate(13,8,2020))
         );
-        //bookingList = new ArrayBookingList(3);
+        ArrayList<Booking> list =  new ArrayList<>();
+        bookingList = new ArrayListBooking(list);
 
         bookingList.add(b1);
         bookingList.add(b2);
@@ -67,7 +73,8 @@ public class ArrayBookingListTest {
 
     @Test
     public  void addEmptyBookingListCorrectAdded(){
-        //BookingList bookingList= new ArrayBookingList(1);
+        ArrayList<Booking> list1 =  new ArrayList<>();
+        BookingList bookingList= new ArrayListBooking(list1);
         bookingList.add(b1);
         Assert.assertEquals(1,bookingList.size());
         bookingList.add(b2);
@@ -91,6 +98,4 @@ public class ArrayBookingListTest {
         Booking[] shouldArray= {b2,b1,b3};
         Assert.assertArrayEquals(shouldArray,resArray);
     }
-
-
 }
