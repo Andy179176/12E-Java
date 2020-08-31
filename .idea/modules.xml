@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/20200727_parseCardArray/20200727_parseCardArray.iml" filepath="$PROJECT_DIR$/20200727_parseCardArray/20200727_parseCardArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200728_parsePersonArray/20200728_parsePersonArray.iml" filepath="$PROJECT_DIR$/20200728_parsePersonArray/20200728_parsePersonArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200730_parseSecuredWordsArray/20200730_parseSecuredWordsArray.iml" filepath="$PROJECT_DIR$/20200730_parseSecuredWordsArray/20200730_parseSecuredWordsArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200731_bookingHotel/20200731_bookingHotel.iml" filepath="$PROJECT_DIR$/20200731_bookingHotel/20200731_bookingHotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200804_interfaceDemo/20200804_interfaceDemo.iml" filepath="$PROJECT_DIR$/20200804_interfaceDemo/20200804_interfaceDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200805_comparableDemo/20200805_comparableDemo.iml" filepath="$PROJECT_DIR$/20200805_comparableDemo/20200805_comparableDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200806_comparatorDemo/20200806_comparatorDemo.iml" filepath="$PROJECT_DIR$/20200806_comparatorDemo/20200806_comparatorDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200813_arrayHandlerDemo/20200813_arrayHandlerDemo.iml" filepath="$PROJECT_DIR$/20200813_arrayHandlerDemo/20200813_arrayHandlerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200817_equalsDemo/20200817_equalsDemo.iml" filepath="$PROJECT_DIR$/20200817_equalsDemo/20200817_equalsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200817_interfaceUsingDemo/20200817_interfaceUsingDemo.iml" filepath="$PROJECT_DIR$/20200817_interfaceUsingDemo/20200817_interfaceUsingDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200820_personLinkedList/20200820_personLinkedList.iml" filepath="$PROJECT_DIR$/20200820_personLinkedList/20200820_personLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200824_listDemo/20200824_listDemo.iml" filepath="$PROJECT_DIR$/20200824_listDemo/20200824_listDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200826_listHandlerTask/20200826_listHandlerTask.iml" filepath="$PROJECT_DIR$/20200826_listHandlerTask/20200826_listHandlerTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20200827_stringInJavaExample/20200827_stringInJavaExample.iml" filepath="$PROJECT_DIR$/20200827_stringInJavaExample/20200827_stringInJavaExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homeworlPersonListAndAddress/homeworlPersonListAndAddress.iml" filepath="$PROJECT_DIR$/homeworlPersonListAndAddress/homeworlPersonListAndAddress.iml" />
+    </modules>
+  </component>
+</project>
