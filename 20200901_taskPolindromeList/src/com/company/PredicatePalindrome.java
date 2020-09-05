@@ -4,9 +4,13 @@ import java.util.function.Predicate;
 
 public class PredicatePalindrome implements Predicate<String> {
 
-    @Override
+    @Override // comparison does not take into account spaces and punctuation marks
     public boolean test(String s) {
         if (s == null) return false;
-        return new StringBuffer(s).reverse().toString().equalsIgnoreCase(s);
+
+        //with using regular expressions
+        String stringWithoutSpacesAndPunctuationMarks = s.replaceAll("\\p{Punct}|\\s","");
+        return new StringBuffer(stringWithoutSpacesAndPunctuationMarks).
+                reverse().toString().equalsIgnoreCase(stringWithoutSpacesAndPunctuationMarks);
     }
 }
