@@ -1,14 +1,15 @@
 package com.company;
 
 import org.junit.jupiter.api.Test;
-
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PredicatePalindromeTest {
     @Test
     public void test_isPalindrome_true() {
-        String str = "1234321";
-        String str1 = "123321";
+        String str = "123-?.,4 3 21@#*,?";
+        String str1 = " 1 2 3 3 2 1 ";
         PredicatePalindrome palindrome = new PredicatePalindrome();
         assertTrue(palindrome.test(str));
         assertTrue(palindrome.test(str1));

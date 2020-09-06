@@ -3,4 +3,5 @@
 *.iml
 /*/.idea/
 /*/out/
-
+.idea
+.DS_Store
